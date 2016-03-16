@@ -12,6 +12,7 @@
 		F68200A01C99231E00B2314E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F682009E1C99231E00B2314E /* Main.storyboard */; };
 		F68200A21C99231E00B2314E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68200A11C99231E00B2314E /* Assets.xcassets */; };
 		F68200A51C99231E00B2314E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68200A31C99231E00B2314E /* LaunchScreen.storyboard */; };
+		F68200AD1C99257A00B2314E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68200AC1C99257A00B2314E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F68200A11C99231E00B2314E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68200A41C99231E00B2314E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68200A61C99231E00B2314E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68200AC1C99257A00B2314E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68200AD1C99257A00B2314E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		F682008E1C99231E00B2314E = {
 			isa = PBXGroup;
 			children = (
+				F68200AC1C99257A00B2314E /* CoreLocation.framework */,
 				F68200991C99231E00B2314E /* GPS Tracker App */,
 				F68200981C99231E00B2314E /* Products */,
 			);
